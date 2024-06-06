@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(89, 133, 255);
+    
+}
+
+/* button */
+.btn-danger {
+    background-color: rgb(89, 133, 255);
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger{
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 45px;
+    color:  rgb(89, 133, 255);
+}
+
+/*navbar */
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.301);
+    
+}
+.nav-item .nav-link {
+    
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right : 5px;
+}
+
+/* scroll */
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 1px solid red;
+    box-shadow: 1px 1 px 11px -1px rgba(1, 1, 1, .08);
+}
+
+.text-nav-active{
+    color:  black;
+}
+
+/*hero */
+#hero {
+    background-image: url("../images/bg.hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    
+}
+
+.hero-title{
+    padding-top: 200px;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.hero-text{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+/* responsive layar kecil */
+@media screen and (min-width: 300px){
+    .hero-text{
+    font-size: 25px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 350px){
+    .hero-text{
+    font-size: 29px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 400px){
+    .hero-text{
+    font-size: 33px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 450px){
+    .hero-text{
+    font-size: 35px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 550px){
+    .hero-text{
+    font-size: 45px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 650px){
+    .hero-text{
+    font-size: 54px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 700px){
+    .hero-text{
+    font-size: 57px;
+    font-weight: 600;
+    }
+    
+}
+@media screen and (min-width: 800px){
+    .hero-text{
+    font-size: 60px;
+    font-weight: 600;
+    }
+    
+}
+/*join*/
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: red;
+}
+
+
+/*Video*/
+#video {
+    background-image: url(../images/bg-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* paralax background */
+
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url();
+}
+.stripe-putih{
+
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
