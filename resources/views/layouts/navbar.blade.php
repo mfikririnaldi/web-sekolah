@@ -28,7 +28,15 @@
         </li>
         
       </ul>
-      <div class="d-flex">
+       <div class="d-flex">
+        @auth 
+            <form action="/logout" method="POST">
+                @csrf
+                <button type="submit" class="btn btn-dark" href=""> Logout</button>
+            </form>
+        @else
+            <button class="btn btn-danger" href="">Register</button> 
+        @endauth
         <button class="btn btn-danger shadow" href=""> Masuk Yuk</button>
       </div>
     </div>
