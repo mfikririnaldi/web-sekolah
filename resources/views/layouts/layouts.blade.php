@@ -10,6 +10,9 @@
     <title>SDN 2 DOROAMPEL </title>
     {{--AOS--}}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    {{-- magnific --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific/.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
